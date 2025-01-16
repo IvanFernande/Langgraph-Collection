@@ -122,3 +122,26 @@ Prompt: Find the latest on AI of today 16/01/2025
 
 These highlights reflect the ongoing evolution and integration of AI across various sectors.
 ```
+
+2. **Calculate Sum(calculate_sum):** Calculates the sum of two numbers given in a string.
+- Usage:
+```python
+calculate_sum("15 27")
+```
+- Example
+```bash
+Prompt: What is the result of 2 plus 5?
+(HUMAN)    → What is the result of 2 plus 5?
+(TOOL: calculate_sum) → The sum of 2 and 5 is 7.
+(AI MODEL) → The result of 2 plus 5 is 7.
+```
+
+3. **Invoke Secondary Agent (invoke_secondary_agent)** Invoke a secondary AI agent for specialised tasks.
+- Usage:
+```python
+invoke_secondary_agent("Your prompt here")
+```
+- Example
+```bash
+
+```
