@@ -88,4 +88,4 @@ Prompt: What is the date today?
 ```
 
 3. **Finish the conversation:**
-Press 'Ctrl+C' to safely exit the chat cycle.
+Press `Ctrl+C` to safely exit the chat cycle.
