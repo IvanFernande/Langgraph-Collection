@@ -46,10 +46,36 @@ git clone https://github.com/IvanFernande/Langgraph-Collection.git
 cd ai-assistant
 ```
 
-2, **Install dependencies:**
+2. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Configuration
+
+1. **Set up API Keys:**
+
+- Create a file called api_keys.py in the root directory of the project.
+- Add your OpenAI and Tavily API keys:
+
+```python
+OPENAI_API_KEY = "your_openai_api_key_here"
+TAVILY_API_KEY = "your_tavily_api_key_here"
+```
+
+2. **Global variables:**
+
+The script sets global variables for the API keys. Make sure api_keys.py is set correctly as shown above.
+
+
+## Usage
+
+1. **Execute the script:**
+```bash
+python script.py
+```
+
+2. **Interact with the Assistant:**
+- Upon launch, you will be prompted to enter your messages.
+- The assistant will respond based on your input, using the built-in tools as needed.
