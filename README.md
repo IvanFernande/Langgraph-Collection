@@ -162,3 +162,7 @@ In summary, relativity fundamentally alters our understanding of space, time, an
 
 In essence, relativity changes our understanding of space, time, and gravity, showing they are interconnected and relative to the observer's motion.
 ```
+
+---
+
+Any improvements or contributions to this code would be greatly appreciated! I hope this project has helped you learn something new. For any questions, feel free to email me at: ivanfdezg@hotmail.com.
