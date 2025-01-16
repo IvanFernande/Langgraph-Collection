@@ -95,3 +95,31 @@ The assistant's workflow is managed by a status network. To visualise this workf
 
 1. Graph generation:
    When running the script, a PNG image of the state graph will be generated (default name: `stategraph.png`).
+2. Custom Name: You can change the name by modifying the call to the visualize_graph function in the script:
+  ```python
+    visualize_graph(workflow, filename=‘my_workflow’)
+  ```
+  This will save the graph as `my_workflow.png`.
+
+## Tools
+1. **Web Search(search)**
+Make web searches using the Tavily API.
+- Usage:
+```python
+search("Your search query here")
+```
+- Example
+```bash
+Prompt: Find the latest on AI of today 16/01/2025
+(HUMAN)    → Find the latest on AI of today 16/01/2025
+(TOOL: search) → On January 16, 2025, the latest news on AI includes developments in Generative AI space, exciting AI advancements in automation, healthcare, and autonomous vehicles, Microsoft's $3 billion investment in India to boost AI and cloud services, Cognizant leading enterprises into the next generation of AI adoption with Neuro-R AI Multi-Agent Accelerator, and Thundercomm launching its latest innovations at CES 2025.
+(AI MODEL) → On January 16, 2025, the latest developments in AI include:
+
+1. **Generative AI Advancements**: Continued progress in the generative AI space, enhancing creativity and content creation.
+2. **Automation and Healthcare**: Significant advancements in AI applications for automation and healthcare, improving efficiency and patient care.
+3. **Microsoft's Investment**: Microsoft announced a $3 billion investment in India aimed at boosting AI and cloud services.
+4. **Cognizant's AI Adoption**: Cognizant is leading enterprises into the next generation of AI adoption with its Neuro-R AI Multi-Agent Accelerator.
+5. **Thundercomm Innovations**: Thundercomm launched its latest innovations at CES 2025, showcasing new AI technologies.
+
+These highlights reflect the ongoing evolution and integration of AI across various sectors.
+```
