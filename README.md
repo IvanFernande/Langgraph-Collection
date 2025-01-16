@@ -89,3 +89,9 @@ Prompt: What is the date today?
 
 3. **Finish the conversation:**
 Press `Ctrl+C` to safely exit the chat cycle.
+
+## Workflow Visualization
+The assistant's workflow is managed by a status network. To visualise this workflow:
+
+1. Graph generation:
+   When running the script, a PNG image of the state graph will be generated (default name: `stategraph.png`).
