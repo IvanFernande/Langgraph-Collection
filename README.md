@@ -79,3 +79,13 @@ python script.py
 2. **Interact with the Assistant:**
 - Upon launch, you will be prompted to enter your messages.
 - The assistant will respond based on your input, using the built-in tools as needed.
+
+```bash
+Prompt: What is the date today?
+(HUMAN)    → What is the date today?
+(TOOL: search) → The current date and time is January 16, 2025, and the time is 19:08:29.
+(AI MODEL) → Today's date is January 16, 2025.
+```
+
+3. **Finish the conversation:**
+Press 'Ctrl+C' to safely exit the chat cycle.
