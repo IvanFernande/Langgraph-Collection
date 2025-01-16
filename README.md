@@ -102,8 +102,7 @@ The assistant's workflow is managed by a status network. To visualise this workf
   This will save the graph as `my_workflow.png`.
 
 ## Tools
-1. **Web Search(search)**
-    Make web searches using the Tavily API.
+1. **Web Search(search):** Make web searches using the Tavily API.
 - Usage:
 ```python
 search("Your search query here")
