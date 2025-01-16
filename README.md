@@ -143,5 +143,24 @@ invoke_secondary_agent("Your prompt here")
 ```
 - Example
 ```bash
+Prompt: Explain the theory of relativity, using other agent to check the answer. I need the answer to be short
+(HUMAN)    → Explain the theory of relativity, using other agent to check the answer. I need the answer to be short
+(TOOL: invoke_secondary_agent) → The theory of relativity, developed by Albert Einstein, consists of two main parts: special relativity and general relativity.
 
+1. **Special Relativity (1905)**: This theory addresses the physics of objects moving at constant speeds, particularly at speeds close to the speed of light. It introduces two key concepts:
+   - The laws of physics are the same for all observers, regardless of their relative motion.
+   - The speed of light in a vacuum is constant and does not change, regardless of the motion of the light source or observer. This leads to phenomena such as time dilation (time moving slower for fast-moving observers) and length contraction (objects appearing shorter in the direction of motion).
+
+2. **General Relativity (1915)**: This theory extends the principles of special relativity to include acceleration and gravity. It describes gravity not as a force but as the curvature of spacetime caused by mass. Massive objects like planets and stars warp the fabric of spacetime, causing objects to follow curved paths. This explains phenomena such as the bending of light around massive objects and the precession of planetary orbits.
+
+In summary, relativity fundamentally alters our understanding of space, time, and gravity, showing that they are interconnected and relative to the observer's motion.
+(AI MODEL) → The theory of relativity, developed by Albert Einstein, consists of two main parts:
+
+1. **Special Relativity (1905)**: This focuses on objects moving at constant speeds, particularly near the speed of light. It introduces two key ideas:
+   - The laws of physics are the same for all observers, regardless of their relative motion.
+   - The speed of light in a vacuum is constant, leading to effects like time dilation (time moves slower for fast-moving observers) and length contraction (objects appear shorter in the direction of motion).
+
+2. **General Relativity (1915)**: This extends special relativity to include acceleration and gravity, describing gravity not as a force but as the curvature of spacetime caused by mass. Massive objects warp spacetime, causing other objects to follow curved paths, explaining phenomena like the bending of light around massive objects.
+
+In essence, relativity changes our understanding of space, time, and gravity, showing they are interconnected and relative to the observer's motion.
 ```
