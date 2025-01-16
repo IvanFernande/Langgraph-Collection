@@ -14,8 +14,6 @@
 - [Usage](#usage)
 - [Workflow Visualization](#workflow-visualization)
 - [Tools](#tools)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
